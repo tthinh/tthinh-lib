@@ -1,0 +1,16 @@
+<assembly>
+    <id>resources</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <baseDirectory>${pom.artifactId}</baseDirectory>
+
+    <fileSets>
+        <fileSet>
+            <outputDirectory/>
+            <directory>${basedir}/dist</directory>
+        </fileSet>
+    </fileSets>
+</assembly>

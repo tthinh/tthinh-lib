@@ -1,0 +1,22 @@
+<settings>
+	<servers>
+		<server>
+			<id>fuego-releases</id>
+			<username>fuego</username>
+			<password>fuego</password>
+		</server>
+		<server>
+			<id>fuego-snapshots</id>
+			<username>fuego</username>
+			<password>fuego</password>
+		</server>
+
+	</servers>
+	<mirrors>
+		<mirror>
+			<id>central-mirror</id>
+			<url>http://ctg-cache-repo.corp.intuit.net/nexus/content/groups/public</url>
+			<mirrorOf>*</mirrorOf>
+		</mirror>
+	</mirrors>
+</settings>

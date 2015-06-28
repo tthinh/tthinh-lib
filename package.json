@@ -1,0 +1,18 @@
+{
+  "name": "interview-service-lib",
+  "version": "1.0.0",
+  "main": "src/",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.intuit.com/CTG-Tax-EcoSystem/interview-service-lib"
+  },
+  "_comment": "*** Please do not modify the lines below ***",
+  "scripts": {
+    "test": "node ./node_modules/ux-interview/scripts/init_and_run_topic_module_unit_tests.js",
+    "unittest": "node ./node_modules/ux-interview/scripts/run_topic_module_unit_tests.js",
+    "dist": "node ./node_modules/ux-interview/scripts/run_topic_module_dist.js"
+  },
+  "devDependencies": {
+    "ux-interview": "git+ssh://git@github.intuit.com/CTG-Tax-EcoSystem/Interview-Service"
+  }
+}
